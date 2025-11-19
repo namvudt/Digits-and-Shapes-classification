@@ -1,0 +1,23 @@
+# Ignore everything by default
+*
+
+# Allow specific files
+!.gitignore
+!app_complete.py
+!combined_recognition.ipynb
+
+
+# Allow model files
+!best_mnist_model.pth
+!best_shapes_model_reduce.pth
+!*.pth
+!2D_Geometric_Shapes_Dataset
+!mnist_competition
+# Ignore cache and temp files
+.gradio/
+.ipynb_checkpoints/
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+
