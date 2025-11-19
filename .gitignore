@@ -5,7 +5,8 @@
 !.gitignore
 !app_complete.py
 !combined_recognition.ipynb
-
+!README.md
+!DEPLOYMENT_README.md
 
 # Allow model files
 !best_mnist_model.pth
