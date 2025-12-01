@@ -18,6 +18,11 @@
 !app_complete.py
 !combined_recognition.ipynb
 
+# Allow PDF and PPTX files
+!*.pdf
+!*.pptx
+!*.docx
+
 # Allow model files
 !*.pth
 !best_mnist_model.pth
