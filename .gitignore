@@ -1,19 +1,34 @@
 # Ignore everything by default
 *
 
-# Allow specific files
+# Allow specific files and folders
 !.gitignore
-!app_complete.py
-!combined_recognition.ipynb
 !README.md
 !DEPLOYMENT_README.md
 
+# Allow src folder
+!src/
+!src/**
+
+# Allow docs folder  
+!docs/
+!docs/**
+
+# Allow specific files in root
+!app_complete.py
+!combined_recognition.ipynb
+
 # Allow model files
+!*.pth
 !best_mnist_model.pth
 !best_shapes_model_reduce.pth
-!*.pth
-!2D_Geometric_Shapes_Dataset
-!mnist_competition
+
+# Allow dataset folders (nếu cần)
+!2D_Geometric_Shapes_Dataset/
+!2D_Geometric_Shapes_Dataset/**
+!mnist_competition/
+!mnist_competition/**
+
 # Ignore cache and temp files
 .gradio/
 .ipynb_checkpoints/
@@ -21,4 +36,3 @@
 __pycache__/
 *.pyc
 *.pyo
-
