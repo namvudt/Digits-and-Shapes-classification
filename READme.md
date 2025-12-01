@@ -68,7 +68,7 @@ Dự án minh họa:
 
 ## 📁 Cấu Trúc Dự Án
 
-Digits-and-Shapes-classification/
+Digits-and-Shapes-classification/src/
 ├── 📓 Notebooks
 │   ├── mnist_features.ipynb           # MNIST cơ bản + features
 │   ├── combined_recognition.ipynb     # Mô hình riêng (MNIST + Shapes)
@@ -99,6 +99,7 @@ Digits-and-Shapes-classification/
     ├── README.md                      # File này
     ├── DEPLOYMENT_README.md           # Hướng dẫn triển khai PyTorch
     ├── requirements_deploy.txt        # Dependencies PyTorch
+    |── BTL Xử Lý Ảnh.pdf              # Slide thuyết trình
 ```
 
 ## 🔧 Cài Đặt
